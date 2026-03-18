@@ -4,11 +4,14 @@ const yesButton = document.getElementById('yes-btn');
 
 
 movingButton.style.position = 'absolute';
-movingButton.style.marginLeft = '5px';
+yesButton.style.position = "absolute";
+yesButton.style.marginRight = "70px";
+movingButton.style.marginLeft = "70px";
+
 
 
 // add event listener to the button
-movingButton.addEventListener('mouseover', function () {
+movingButton.addEventListener('click', function () {
     let randomX = Math.random() * 80
     let randomY = Math.random() * 80
     setTimeout(() => {

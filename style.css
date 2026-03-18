@@ -5,30 +5,24 @@ body {
     width: 100vw;
 }
 
-main {
-    height: 80vh;
-    width: 100vw;
-    position: relative;
-}
-
 .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     height: 100%;
+    width: 100vw;
 }
 
 .container h1 {
     font-size: 3rem;
     margin-bottom: 1rem;
     text-align: center;
+    padding: 50px 0;
 }
-
 
 .container .btns {
-    margin: 0 auto;
+    display: flex;
+    justify-content: center;
 }
+
+
 
 .container .btns button {
     padding: 0.5rem 1rem;
